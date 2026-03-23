@@ -16,11 +16,11 @@ public class controller {
     @Resource
     private AiCodeHelperService aiCodeHelperService;
 
-    @GetMapping("/chat")
-    public Flux<ServerSentEvent<String>> chat(int memoryid,String messageConverters){
-            aiCodeHelperService.chatStream(memoryId,message)
-                    .map(chunk ->ServerSentEvent.<String>builder()
-                            .date(chunk)
-                            .build());
-    }
+//    @GetMapping("/chat")
+//    public Flux<ServerSentEvent<String>> chat(int memoryid,String messageConverters){
+//            aiCodeHelperService.chatStream(memoryId,message)
+//                    .map(chunk ->ServerSentEvent.<String>builder()
+//                            .date(chunk)
+//                            .build());
+//    }
 }
