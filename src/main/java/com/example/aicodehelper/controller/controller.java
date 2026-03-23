@@ -1,12 +1,8 @@
-package com.example.aicodehelper.controller.ai;
+package com.example.aicodehelper.controller;
 
 import com.example.aicodehelper.ai.AiCodeHelperService;
 import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.http.HttpMessageConverters;
-import org.springframework.http.codec.ServerSentEvent;
-import org.springframework.test.web.reactive.server.FluxExchangeResult;
-import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
